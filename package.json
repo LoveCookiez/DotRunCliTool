@@ -1,0 +1,18 @@
+{
+  "name": "dotruntool",
+  "version": "1.0.0",
+  "description": "Small nodejs cli tool to select and run multiple dotnet projects, each within its individual subfolder inside a main one.",
+  "main": "index.js",
+  "bin": {
+        "dotrun": "./index.js"
+    },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vlad Dumitru (LoveCookiez)",
+  "license": "ISC",
+  "dependencies": {
+        "conf": "^10.1.1",
+        "multiselect-prompt": "^0.3.2"
+    }
+}
